@@ -1,0 +1,2 @@
+const e=document.querySelector('[data-action="decrement"]'),t=document.querySelector('[data-action="increment"]'),n=document.querySelector("#value"),c={value:0,increment(){this.value+=1},decrement(){this.value-=1}};t.addEventListener("click",(function(){c.increment(),n.textContent=c.value})),e.addEventListener("click",(function(){c.decrement(),n.textContent=c.value}));
+//# sourceMappingURL=task-04.d8eea44c.js.map

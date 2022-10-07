@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector('[data-action="decrement"]'),t=document.querySelector('[data-action="increment"]'),n=document.querySelector("#value"),c={value:0,increment:function(){this.value+=1},decrement:function(){this.value-=1}};t.addEventListener("click",(function(){c.increment(),n.textContent=c.value})),e.addEventListener("click",(function(){c.decrement(),n.textContent=c.value}))}();
+//# sourceMappingURL=task-04.f1c4a213.js.map
